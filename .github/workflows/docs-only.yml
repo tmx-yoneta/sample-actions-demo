@@ -1,0 +1,14 @@
+name: Docs Only CI
+
+on:
+  push:
+    paths:
+      - 'docs/**'
+
+jobs:
+  check-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print message
+        run: echo "docs/ディレクトリ内が変更されました"
