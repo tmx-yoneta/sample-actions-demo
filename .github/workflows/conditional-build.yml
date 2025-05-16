@@ -3,7 +3,7 @@ name: Conditional Build
 on:
   push:
     paths-ignore:
-      - 'README.md
+      - 'README.md'
       - 'docs/**'
 
 jobs:
