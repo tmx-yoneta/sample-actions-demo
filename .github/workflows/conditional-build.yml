@@ -22,6 +22,7 @@ jobs:
             echo "code_changed=true" >> $GITHUB_OUTPUT
           else
             echo "code_changed=false" >> $GITHUB_OUTPUT
+          fi
 
   build:
     needs: check-diff
