@@ -3,6 +3,7 @@ name: Docs Only CI
 on:
   push:
     paths:
+      - 'README.md
       - 'docs/**'
 
 jobs:
@@ -11,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Print message
-        run: echo "docs/ディレクトリ内が変更されました"
+        run: echo "docs/ ディレクトリ内が変更されたため、doc-check を実行します"
