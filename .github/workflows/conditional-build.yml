@@ -31,4 +31,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build the code
-        run: echo "src に変更があったのでビルドを実行します"
+        run: echo "srcフォルダに変更があったのでビルドを実行します"
